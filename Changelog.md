@@ -1,3 +1,10 @@
+# Version 4.0.5 (2025-12-11)
+
+- [SECURITY] Update `onelogin/php-saml` version requirement to 4.3.1  because of [CVE-2025-66475](https://github.com/advisories/GHSA-5j8p-438x-rgg5) and `robrichards/xmlseclibs` [CVE-2025-66475](https://github.com/advisories/GHSA-c4cc-x928-vjw9)
+
+All changes
+https://github.com/cdaecke/md_saml/compare/4.0.4...4.0.5
+
 # Version 4.0.4 (2025-09-18)
 
 - [BUGFIX] do not set `databaseDefaults` without a value since this stops the overriding process of custom settings for this area
